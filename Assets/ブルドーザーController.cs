@@ -23,7 +23,7 @@ public class ブルドーザーController : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)//通り過ぎたオブジェクトを削除する関数
     {
-            //ブルドーザーに接触したオブジェクトをDestoy
+            //ブルドーザーに接触したオブジェクトをDestroy
             Destroy(other.gameObject);
     }
 }
